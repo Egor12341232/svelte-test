@@ -18,6 +18,7 @@
         cupiditate dolores
         ducimus expedita labore nemo odio quibusdam quidem sapiente soluta.
     </h2>
+    <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
     <div style="color:black" class="scroll-button animate-scroll" tabindex=0>
     <a href="/about">Click Here</a>
 <div class="arrow"></div>
