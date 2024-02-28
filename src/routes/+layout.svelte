@@ -3,10 +3,11 @@
     <a href="/" class="nav_logo" title="Black to Homepage">Prokofev Egor</a>
     <div class="nav-links">
         <!-- svelte-ignore missing-declaration -->
-        {#if each-nav-as-link.isShow}
-<a href={link.href} class="link">{link.title}</a>
+        {#each nav as link}
 
-{/if}
+<a href={link.href} class="link">{link.title}{link.isShow}</a>
+
+{/each}
     </div>
     </div>
     </nav>
