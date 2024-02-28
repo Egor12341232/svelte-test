@@ -74,7 +74,7 @@ margin-top: 0.50rem;
 .background-div {
 background-color:#ecebe8;
 width: 100%;
-height: 56vh;
+height: 50vh;
 margin: -205px auto;
 }
 
