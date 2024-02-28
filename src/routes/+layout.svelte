@@ -3,9 +3,9 @@
     <a href="/" class="nav_logo" title="Black to Homepage">Prokofev Egor</a>
     <div class="nav-links">
         <!-- svelte-ignore missing-declaration -->
-        {#if nav  `link.isShow`}
+        {#if nav  -link.isShow}
 
-<a href={link.href} class="link">{link.title}</a>
+<a href={-link.href} class="link">{-link.title}</a>
 
 {/if}
     </div>
